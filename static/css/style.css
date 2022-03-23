@@ -1,0 +1,32 @@
+body {
+
+    color: #f7f7f7;
+  }
+.jumbotron {
+    background-image: url("/static/images/nasa.jpg");
+    background-size: 100% 100%;
+    text-align: center;
+  }
+
+  
+
+li {font-family: inherit; font-size: 1rem}
+
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th {
+border-top: 2px solid #ddd;
+border-bottom: 0.5px solid #ddd;
+}
+td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 0.5px solid #ddd;
+  
+}
+tr:nth-child(even) {background-color: hsla(12, 4%, 52%, 0.5);}
+
